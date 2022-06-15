@@ -1,0 +1,12 @@
+:root {
+  --font-family: "arial", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --color-primary: #e52429;
+  --color-second: #ec3e42;
+  --color-tercero: #58595b;
+  --color-cuarto: #4d4d4d;
+  --color-quinto: #474747;
+  --color-sexto: #444444;
+  --color-septimo: #e6e6e6;
+  --color-octavo: #ffffff;
+}

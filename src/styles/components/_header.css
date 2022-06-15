@@ -1,0 +1,57 @@
+.header-container {
+  width: 100%;
+  height: auto;
+  /* padding-bottom: 10rem; */
+
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.header-navbar {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0px 0px;
+  position: relative;
+  display: grid;
+  grid-template-areas: "logo perfil";
+
+  grid-template-columns: 20% auto;
+}
+.header-logo {
+  grid-area: logo;
+}
+
+.header-logo img {
+  width: 50%;
+  height: auto;
+  padding: 0.1rem 0rem 0.1rem 0.5rem;
+}
+
+.header-perfil {
+  grid-area: perfil;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.header-perfil h4 {
+  font-size: 0.9rem; 
+  color: var(--color-tercero);
+  margin-bottom: 0.4rem;
+}
+.header-perfil p {
+  font-size: 0.9rem; 
+  color: var(--color-tercero);
+  margin-bottom: 0.4rem;
+}
+
+.header-perfil div {
+  padding: 0.5rem;
+
+}
+
+.header-perfil img {
+  width: 30%;
+  height: auto;
+}
